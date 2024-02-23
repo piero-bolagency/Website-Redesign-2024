@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "intro": {
+      "type": "main-collection-intro",
+      "settings": {
+        "collection_header_style": "full",
+        "image_position": "left top",
+        "enable_full_width": true,
+        "show_collection_description": true,
+        "max_width_text": 34,
+        "opacity_overlay": 60,
+        "color_overlay": "#000000",
+        "color_heading": "#ffffff",
+        "color_subheading": "#b8b8b8"
+      }
+    },
+    "main": {
+      "type": "main-collection-grid",
+      "settings": {
+        "show_filter": true,
+        "show_sort": true,
+        "per_row": 3,
+        "per_page": 12,
+        "pagination": "paginated",
+        "aspect_ratio": "square"
+      }
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "Featured collection",
+        "per_row": 3,
+        "rows": 1,
+        "aspect_ratio": "natural",
+        "link_text": "Shop all"
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "main",
+    "featured"
+  ]
+}

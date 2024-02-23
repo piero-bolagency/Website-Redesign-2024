@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "variant_popup_show_title": true
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "divider",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_sidebar": true,
+        "enable_full_width": false,
+        "media_layout": "slider",
+        "enable_video_looping": true,
+        "enable_gift_card_recipient": true
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "heading": "Recommended",
+        "per_row": 3,
+        "rows": 1,
+        "aspect_ratio": "natural"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

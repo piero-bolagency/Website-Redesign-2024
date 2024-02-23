@@ -1,0 +1,48 @@
+{% liquid
+  comment
+    Renders a stripped down product-item for the Featured products section.
+
+    Required parameters:
+      - product: { Object } The block's product.
+
+    Optional parameters:
+      - is_placeholder: { Boolean } Whether to render as a placeholder.
+  endcomment
+
+  assign product_title = 'sections.featured_products.placeholder.product_title' | t
+%}
+
+{% if is_placeholder %}
+  <a class="featured-products__product-image placeholder-image" href="#">
+    {{ 'product-' | append: i | placeholder_svg_tag: 'placeholder-svg' }}
+  </a>
+  <h4 class="featured-products__block-heading ff-body fs-body-base c-body">
+    {{ 'sections.featured_products.placeholder.product_title' | t }}
+  </h4>
+  <a class="ff-body fs-body-base link" href="#">{{ 'sections.featured_products.shop_now' | t }}</a>
+{% else %}
+  <a
+    href="{{ product.url }}"
+    class="featured-products__product-image hover"
+    {%- if product != blank -%}
+      title="{{ product.title }}"
+    {%- else -%}
+      title="Placeholder product"
+    {%- endif -%}
+  >
+    {%- if product != blank -%}
+      {% render 'nativeImage' with image: product.featured_media.preview_image, id: product.handle, sizes: "(min-width: 640px) 85px, 50%" %}
+    {%- else -%}
+      <div class="placeholder-image">
+        {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      </div>
+    {%- endif -%}
+  </a>
+
+  <h4 class="featured-products__block-heading ff-body fs-body-base c-body">
+    {{ product.title | default: product_title }}
+  </h4>
+  <a class="ff-body fs-body-base link" href="{{ product.url }}">
+    {{- 'sections.featured_products.shop_now' | t -}}
+  </a>
+{% endif %}
