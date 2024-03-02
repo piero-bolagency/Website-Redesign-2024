@@ -6,7 +6,7 @@
       "login": "shopify theme dev --store %npm_package_config_store%",
       "logout": "shopify auth logout",
       "start": "shopify theme dev --theme-editor-sync",
-      "check": "shopify theme check",
+      "lint": "shopify theme check",
       "pull": "shopify theme pull",
       "pull:theme": "shopify theme pull --theme %npm_package_config_theme_id%",
       "deploy": "shopify theme push --nodelete",
