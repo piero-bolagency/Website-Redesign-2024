@@ -1,6 +1,21 @@
 name: Theme Check
-on: [push, pull_request]
-
+on:
+  push:
+    branches:
+      - main
+      - development
+      - juan-development
+      - luis-development
+      - staging-qa
+      - uat
+  pull_request:
+    branches:
+      - main
+      - development
+      - juan-development
+      - luis-development
+      - staging-qa
+      - uat
 jobs:
   theme-check:
     name: Theme Check
@@ -11,13 +26,15 @@ jobs:
       packages: write
     steps:
       - name: Install Node
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.11
-      - uses: actions/checkout@v4
+          node-version: '21.11.1'
+      - name: Checkout Repository
+        uses: actions/checkout@v4.1.1
       - name: Install dependencies
         run: npm install
-      - uses: shopify/theme-check-action@v2
+      - name: Run Theme Check
+        uses: shopify/theme-check-action@v2
         with:
           theme_root: '.'
           base: ${{ github.event.pull_request && github.event.pull_request.base.ref || github.sha }}
