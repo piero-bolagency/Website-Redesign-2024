@@ -38,62 +38,6 @@
         "color_dot": "#777777"
       }
     },
-    "2-column-mosaic-grid": {
-      "type": "2-column-mosaic-grid",
-      "blocks": {
-        "small_square-1": {
-          "type": "small_square",
-          "settings": {
-            "video_url": "",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "title": "This is your Mosaic 2 column grid",
-            "subheading": "<p>Use this Section to promote a series of editorial images, or to divide space among a series of editorial images. Be careful not to add too much text.<\/p>",
-            "text_max_width": 20,
-            "link_text": "",
-            "link": "",
-            "text_position": "left_top",
-            "background_color": "",
-            "color_text": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_background_button": "#000000",
-            "color_text_button": "#ffffff",
-            "overlay_color": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 60
-          }
-        },
-        "small_square-2": {
-          "type": "small_square",
-          "settings": {
-            "video_url": "",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "title": "This is your Mosaic 2 column grid",
-            "subheading": "<p>Mix and match between sizes, set a background color or fill, and add text to blocks that are medium or larger.<\/p>",
-            "text_max_width": 20,
-            "link_text": "",
-            "link": "",
-            "text_position": "left_top",
-            "background_color": "",
-            "color_text": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_background_button": "#000000",
-            "color_text_button": "#ffffff",
-            "overlay_color": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 60
-          }
-        }
-      },
-      "block_order": [
-        "small_square-1",
-        "small_square-2"
-      ],
-      "settings": {
-        "enable_full_width": false
-      }
-    },
     "featured-collection-1": {
       "type": "featured-collection",
       "settings": {
@@ -286,82 +230,6 @@
         "link_text": "Shop all"
       }
     },
-    "slideshow-3": {
-      "type": "slideshow",
-      "blocks": {
-        "1600985612177-0": {
-          "type": "image",
-          "settings": {
-            "focal_point": "image_presentation",
-            "focal_point_mobile": "image_presentation",
-            "video_url": "",
-            "meta": "",
-            "title": "This is your slideshow",
-            "subheading": "<p>Use it to make a dramatic first impression with high-quality imagery and minimal text. Using the button below to link to whatever is most appropriate.<\/p>",
-            "max_width_subheading": 30,
-            "link_text": "Shop now",
-            "link": "#",
-            "alignment": "left_center",
-            "color_heading": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_text_button": "#ffffff",
-            "color_background_button": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "opacity_overlay": 60
-          }
-        }
-      },
-      "block_order": [
-        "1600985612177-0"
-      ],
-      "settings": {
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "duration_autoplay": 4,
-        "enable_parallax": false,
-        "enable_full_width": false,
-        "color_dot": "#777777"
-      }
-    },
-    "gallery-1": {
-      "type": "gallery",
-      "blocks": {
-        "1600985067002-3": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        },
-        "1600985067002-4": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        },
-        "1600985067002-5": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1600985067002-3",
-        "1600985067002-4",
-        "1600985067002-5"
-      ],
-      "settings": {
-        "title": "Gallery",
-        "link_text": "See all",
-        "link": "shopify:\/\/pages\/about-us",
-        "aspect_ratio": "square",
-        "per_row": 3
-      }
-    },
     "image_with_text_XitiWA": {
       "type": "image-with-text",
       "blocks": {
@@ -462,7 +330,6 @@
   },
   "order": [
     "slideshow-1",
-    "2-column-mosaic-grid",
     "featured-collection-1",
     "featured-products-1",
     "collection-list-1",
@@ -470,8 +337,6 @@
     "featured-collection-2",
     "carousel-1",
     "featured-collection-3",
-    "slideshow-3",
-    "gallery-1",
     "image_with_text_XitiWA",
     "blog_posts_yrDHPC",
     "featured_product_E9DTMt"
