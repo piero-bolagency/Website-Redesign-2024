@@ -8,8 +8,9 @@
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "title": "Announce a sale or a new product line using this announcement bar.",
-            "color_background": "#19685f",
+            "title": "ORDER BY DECEMBER 14TH TO RECEIVE BY CHRISTMAS",
+            "link": "",
+            "color_background": "#e31936",
             "color_text": "#ffffff"
           }
         },
@@ -17,6 +18,7 @@
           "type": "announcement",
           "settings": {
             "title": "Announce a sale or a new product line using this announcement bar.",
+            "link": "",
             "color_background": "#1d1d1d",
             "color_text": "#ffffff"
           }
