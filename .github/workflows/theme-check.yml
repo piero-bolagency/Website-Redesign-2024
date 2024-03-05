@@ -10,10 +10,11 @@ jobs:
       contents: read 
       packages: write
     steps:
+      - name: Install Node
+      - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v2
         with:
-          node-version: 20.11  # Adjust based on your requirements
+          node-version: 20.11
       - name: Install dependencies
         run: npm install
       - uses: shopify/theme-check-action@v2
