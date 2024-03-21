@@ -2,34 +2,6 @@
   "type": "header",
   "name": "t:groups.header_group.name",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "title": "Announce a sale or a new product line using this announcement bar.",
-            "color_background": "#19685f",
-            "color_text": "#ffffff"
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "title": "Announce a sale or a new product line using this announcement bar.",
-            "color_background": "#1d1d1d",
-            "color_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-0",
-        "announcement-1"
-      ],
-      "settings": {
-        "timing": 3
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -44,10 +16,30 @@
         "color_border_transparent": "#ffffff",
         "opacity_border_transparent": 50
       }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "title": "ORDER BY DECEMBER 14TH TO RECEIVE BY CHRISTMAS",
+            "link": "",
+            "color_background": "#e31936",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "timing": 3
+      }
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }

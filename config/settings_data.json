@@ -24,9 +24,10 @@
     "color_border_drawer": "#353535",
     "color_background_input_drawer": "#ffffff",
     "color_text_input_drawer": "#1d1d1d",
-    "font_heading": "ibm_plex_sans_n7",
+    "font_logo": "ibm_plex_sans_n7",
+    "font_heading": "avenir_next_n4",
     "font_meta": "ibm_plex_sans_n4",
-    "font_body": "ibm_plex_sans_n4",
+    "font_body": "avenir_next_n4",
     "enable_section_borders": true,
     "corner_radius": 0,
     "enable_page_transitions": true,
@@ -64,7 +65,10 @@
     "cart_show_notes": true,
     "color_text_meta": "#a6a6a6",
     "color_text_meta_contrast": "#a5a5a5",
-    "color_text_meta_drawer": "#8a8a8a"
+    "color_text_meta_drawer": "#8a8a8a",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Active": {
