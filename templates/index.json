@@ -38,243 +38,6 @@
         "color_dot": "#777777"
       }
     },
-    "2-column-mosaic-grid": {
-      "type": "2-column-mosaic-grid",
-      "blocks": {
-        "small_square-1": {
-          "type": "small_square",
-          "settings": {
-            "video_url": "",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "title": "This is your Mosaic 2 column grid",
-            "subheading": "<p>Use this Section to promote a series of editorial images, or to divide space among a series of editorial images. Be careful not to add too much text.<\/p>",
-            "text_max_width": 20,
-            "link_text": "",
-            "link": "",
-            "text_position": "left_top",
-            "background_color": "",
-            "color_text": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_background_button": "#000000",
-            "color_text_button": "#ffffff",
-            "overlay_color": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 60
-          }
-        },
-        "small_square-2": {
-          "type": "small_square",
-          "settings": {
-            "video_url": "",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "title": "This is your Mosaic 2 column grid",
-            "subheading": "<p>Mix and match between sizes, set a background color or fill, and add text to blocks that are medium or larger.<\/p>",
-            "text_max_width": 20,
-            "link_text": "",
-            "link": "",
-            "text_position": "left_top",
-            "background_color": "",
-            "color_text": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_background_button": "#000000",
-            "color_text_button": "#ffffff",
-            "overlay_color": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 60
-          }
-        }
-      },
-      "block_order": [
-        "small_square-1",
-        "small_square-2"
-      ],
-      "settings": {
-        "enable_full_width": false
-      }
-    },
-    "featured-collection-1": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "title": "Featured collection",
-        "per_row": 3,
-        "rows": 1,
-        "aspect_ratio": "natural",
-        "link_text": "Shop all"
-      }
-    },
-    "featured-products-1": {
-      "type": "featured-products",
-      "blocks": {
-        "1600980531412": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        },
-        "1600980543030": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        },
-        "1600980550720": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "1600980531412",
-        "1600980543030",
-        "1600980550720"
-      ],
-      "settings": {
-        "image_position": "left",
-        "title": "Featured Products",
-        "subheading": "Use this section to show off a few of your favourite products",
-        "link": "\/",
-        "link_text": "Shop the collection",
-        "enable_contrast": true,
-        "enable_full_width": false
-      }
-    },
-    "collection-list-1": {
-      "type": "collection-list",
-      "blocks": {
-        "1600315451525-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1600315451525-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1600315451525-0",
-        "1600315451525-1"
-      ],
-      "settings": {
-        "title": "Collections",
-        "per_row": 2,
-        "aspect_ratio": "natural"
-      }
-    },
-    "slideshow-2": {
-      "type": "slideshow",
-      "blocks": {
-        "1600315468934-0": {
-          "type": "image",
-          "settings": {
-            "focal_point": "image_presentation",
-            "focal_point_mobile": "image_presentation",
-            "video_url": "",
-            "meta": "",
-            "title": "This is your slideshow",
-            "subheading": "<p>Use it to make a dramatic first impression with high-quality imagery and minimal text. Using the button below to link to whatever is most appropriate.<\/p>",
-            "max_width_subheading": 30,
-            "link_text": "Shop now",
-            "link": "#",
-            "alignment": "left_center",
-            "color_heading": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_text_button": "#ffffff",
-            "color_background_button": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "opacity_overlay": 60
-          }
-        }
-      },
-      "block_order": [
-        "1600315468934-0"
-      ],
-      "settings": {
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "duration_autoplay": 4,
-        "enable_parallax": false,
-        "enable_full_width": false,
-        "color_dot": "#777777"
-      }
-    },
-    "featured-collection-2": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "title": "Featured collection",
-        "per_row": 2,
-        "rows": 1,
-        "aspect_ratio": "natural",
-        "link_text": "Shop all"
-      }
-    },
-    "carousel-1": {
-      "type": "carousel",
-      "blocks": {
-        "1600984449963-0": {
-          "type": "image",
-          "settings": {
-            "meta": "",
-            "title": "Carousel Section",
-            "subheading": "<p>Use this Section to showcase a rotating gallery of images.<\/p>",
-            "max_width_subheading": 34,
-            "link_text": "Shop the Collection",
-            "link": "\/",
-            "alignment": "left_split",
-            "opacity_overlay": 50
-          }
-        },
-        "1600984449963-1": {
-          "type": "image",
-          "settings": {
-            "meta": "",
-            "title": "Carousel Section",
-            "subheading": "<p>Use this Section to showcase a rotating gallery of images.<\/p>",
-            "max_width_subheading": 34,
-            "link_text": "Shop the Collection",
-            "link": "\/",
-            "alignment": "left_split",
-            "opacity_overlay": 30
-          }
-        },
-        "1600984449963-2": {
-          "type": "image",
-          "settings": {
-            "meta": "",
-            "title": "Carousel Section",
-            "subheading": "<p>Use this Section to showcase a rotating gallery of images.<\/p>",
-            "max_width_subheading": 34,
-            "link_text": "Shop the Collection",
-            "link": "\/",
-            "alignment": "left_split",
-            "opacity_overlay": 70
-          }
-        }
-      },
-      "block_order": [
-        "1600984449963-0",
-        "1600984449963-1",
-        "1600984449963-2"
-      ],
-      "settings": {
-        "height_mobile": 80,
-        "color_overlay": "#000000",
-        "color_overlay_gradient": "",
-        "color_heading": "#ffffff",
-        "color_subheading": "#ffffff",
-        "color_background_button": "#000000",
-        "color_text_button": "#ffffff"
-      }
-    },
     "featured-collection-3": {
       "type": "featured-collection",
       "settings": {
@@ -284,119 +47,6 @@
         "rows": 1,
         "aspect_ratio": "natural",
         "link_text": "Shop all"
-      }
-    },
-    "slideshow-3": {
-      "type": "slideshow",
-      "blocks": {
-        "1600985612177-0": {
-          "type": "image",
-          "settings": {
-            "focal_point": "image_presentation",
-            "focal_point_mobile": "image_presentation",
-            "video_url": "",
-            "meta": "",
-            "title": "This is your slideshow",
-            "subheading": "<p>Use it to make a dramatic first impression with high-quality imagery and minimal text. Using the button below to link to whatever is most appropriate.<\/p>",
-            "max_width_subheading": 30,
-            "link_text": "Shop now",
-            "link": "#",
-            "alignment": "left_center",
-            "color_heading": "#ffffff",
-            "color_subheading": "#b8b8b8",
-            "color_text_button": "#ffffff",
-            "color_background_button": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "opacity_overlay": 60
-          }
-        }
-      },
-      "block_order": [
-        "1600985612177-0"
-      ],
-      "settings": {
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "duration_autoplay": 4,
-        "enable_parallax": false,
-        "enable_full_width": false,
-        "color_dot": "#777777"
-      }
-    },
-    "gallery-1": {
-      "type": "gallery",
-      "blocks": {
-        "1600985067002-3": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        },
-        "1600985067002-4": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        },
-        "1600985067002-5": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1600985067002-3",
-        "1600985067002-4",
-        "1600985067002-5"
-      ],
-      "settings": {
-        "title": "Gallery",
-        "link_text": "See all",
-        "link": "shopify:\/\/pages\/about-us",
-        "aspect_ratio": "square",
-        "per_row": 3
-      }
-    },
-    "image_with_text_XitiWA": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_QQkwyU": {
-          "type": "heading",
-          "settings": {
-            "heading_title": "Time Timer in Education"
-          }
-        },
-        "text_C8a8Bx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Teachers around the world have discovered the power of the award-winning Time Timer to transform stressful transition periods, reduce resistance to routines and increase their ability to manage their classrooms.<\/p>"
-          }
-        },
-        "button_FH89tn": {
-          "type": "button",
-          "settings": {
-            "link": "#",
-            "link_text": "Shop the collection"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QQkwyU",
-        "text_C8a8Bx",
-        "button_FH89tn"
-      ],
-      "settings": {
-        "video_url": "",
-        "image_width": "standard",
-        "image_position": "right",
-        "max_width_text": 34,
-        "enable_contrast": true,
-        "enable_full_width": false
       }
     },
     "blog_posts_yrDHPC": {
@@ -409,71 +59,48 @@
         "aspect_ratio": "square"
       }
     },
-    "featured_product_E9DTMt": {
-      "type": "featured-product",
+    "image_with_text_x8m6tT": {
+      "type": "image-with-text",
       "blocks": {
-        "title_RKiaMF": {
-          "type": "title",
+        "heading_bqbWp7": {
+          "type": "heading",
           "settings": {
+            "heading_title": "Image with text"
           }
         },
-        "price_NkREfP": {
-          "type": "price",
+        "text_r6xiYh": {
+          "type": "text",
           "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>"
           }
         },
-        "divider_9XA4n8": {
-          "type": "divider",
+        "button_WqpHqa": {
+          "type": "button",
           "settings": {
-          }
-        },
-        "variant_picker_7m8zrr": {
-          "type": "variant_picker",
-          "settings": {
-          }
-        },
-        "description_JgMiFM": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "buy_buttons_38W9hd": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
+            "link": "#",
+            "link_text": "Shop the collection"
           }
         }
       },
       "block_order": [
-        "title_RKiaMF",
-        "price_NkREfP",
-        "divider_9XA4n8",
-        "variant_picker_7m8zrr",
-        "description_JgMiFM",
-        "buy_buttons_38W9hd"
+        "heading_bqbWp7",
+        "text_r6xiYh",
+        "button_WqpHqa"
       ],
       "settings": {
-        "product": "time-timer-apple-watch-app",
-        "enable_contrast": false,
-        "enable_full_width": false,
-        "enable_gift_card_recipient": true
+        "video_url": "",
+        "image_width": "standard",
+        "image_position": "left",
+        "max_width_text": 34,
+        "enable_contrast": true,
+        "enable_full_width": false
       }
     }
   },
   "order": [
     "slideshow-1",
-    "2-column-mosaic-grid",
-    "featured-collection-1",
-    "featured-products-1",
-    "collection-list-1",
-    "slideshow-2",
-    "featured-collection-2",
-    "carousel-1",
     "featured-collection-3",
-    "slideshow-3",
-    "gallery-1",
-    "image_with_text_XitiWA",
     "blog_posts_yrDHPC",
-    "featured_product_E9DTMt"
+    "image_with_text_x8m6tT"
   ]
 }

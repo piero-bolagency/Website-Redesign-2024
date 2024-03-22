@@ -1,0 +1,86 @@
+<div class="header-top-bar" style="background-color: {{ section.settings.background_color }};">
+  {% if section.blocks.size > 0 %}
+    <nav class="header-top-bar__links">
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.type == 'top_bar_link' %}
+            <li class="header-top-bar__link">
+              <a href={{ block.settings.url }}>{{ block.settings.label }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        <li class="header-top-bar__customer">
+          {%- if shop.customer_accounts_enabled -%}
+            <a
+              class="header-top-bar__link"
+              href="{{ routes.account_url }}"
+              aria-label="{{ 'general.accessibility.go_account' | t }}"
+              title="Account">
+              <svg height="12" width="12">
+                <g clip-path="url(#clip0_1016_42775)">
+                  <path d="M10.3334 11.375H9.33337V10.375C9.33337 9.97718 9.17534 9.59564 8.89403 9.31434C8.61273 9.03304 8.2312 8.875 7.83337 8.875H4.83337C4.43555 8.875 4.05402 9.03304 3.77271 9.31434C3.49141 9.59564 3.33337 9.97718 3.33337 10.375V11.375H2.33337V10.375C2.33337 9.71196 2.59677 9.07607 3.06561 8.60723C3.53445 8.13839 4.17033 7.875 4.83337 7.875H7.83337C8.49642 7.875 9.1323 8.13839 9.60114 8.60723C10.07 9.07607 10.3334 9.71196 10.3334 10.375V11.375ZM6.33337 6.875C5.93941 6.875 5.5493 6.7974 5.18532 6.64664C4.82135 6.49587 4.49063 6.2749 4.21205 5.99632C3.93348 5.71774 3.7125 5.38703 3.56174 5.02305C3.41097 4.65907 3.33337 4.26897 3.33337 3.875C3.33337 3.48103 3.41097 3.09093 3.56174 2.72695C3.7125 2.36297 3.93348 2.03226 4.21205 1.75368C4.49063 1.4751 4.82135 1.25413 5.18532 1.10336C5.5493 0.952597 5.93941 0.875 6.33337 0.875C7.12902 0.875 7.89209 1.19107 8.45469 1.75368C9.0173 2.31629 9.33337 3.07935 9.33337 3.875C9.33337 4.67065 9.0173 5.43371 8.45469 5.99632C7.89209 6.55893 7.12902 6.875 6.33337 6.875ZM6.33337 5.875C6.86381 5.875 7.37251 5.66429 7.74759 5.28921C8.12266 4.91414 8.33337 4.40543 8.33337 3.875C8.33337 3.34457 8.12266 2.83586 7.74759 2.46079C7.37251 2.08571 6.86381 1.875 6.33337 1.875C5.80294 1.875 5.29423 2.08571 4.91916 2.46079C4.54409 2.83586 4.33337 3.34457 4.33337 3.875C4.33337 4.40543 4.54409 4.91414 4.91916 5.28921C5.29423 5.66429 5.80294 5.875 6.33337 5.875Z" fill="#121212" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1016_42775">
+                    <rect
+                      width="12"
+                      height="12"
+                      fill="white"
+                      transform="translate(0.333374 0.375)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              {% if customer %}
+                {% assign customer_label = customer.name %}
+              {% else %}
+                {% assign customer_label = section.settings.customer_label %}
+              {% endif %}
+              <span>{{ customer_label }}</span>
+            </a>
+          {%- endif -%}
+        </li>
+      </ul>
+    </nav>
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "Header Top Bar",
+    "settings": [
+      {
+        "type": "color_background",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#E4E4E4"
+      }, {
+        "type": "text",
+        "id": "customer_label",
+        "label": "Customer Link label",
+        "default": "My Account"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Top Bar Link",
+        "type": "top_bar_link",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Link Label"
+          }, {
+            "type": "url",
+            "id": "url",
+            "label": "Link URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Header Top Bar"
+      }
+    ]
+  }
+{% endschema %}

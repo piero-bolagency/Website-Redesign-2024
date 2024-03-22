@@ -1,0 +1,25 @@
+{
+  "name": "shopify-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "login": "shopify theme dev --store %npm_package_config_store%",
+    "logout": "shopify auth logout",
+    "start": "shopify theme dev --theme-editor-sync",
+    "lint": "shopify theme check",
+    "pull": "shopify theme pull",
+    "pull:theme": "shopify theme pull --theme %npm_package_config_theme_id%",
+    "deploy": "shopify theme push --nodelete",
+    "deploy:theme": "shopify theme push --nodelete --theme %npm_package_config_theme_id%",
+    "deploy:new": "shopify theme push --nodelete --unpublished",
+    "install-shopify-cli": "npm install -g @shopify/cli @shopify/theme"
+  },
+  "config": {
+    "store": "time-timer.myshopify.com",
+    "theme_id": "CURRENT_THEME_ID(optional)"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.4.4",
+    "prettier": "^3.2.5"
+  }
+}

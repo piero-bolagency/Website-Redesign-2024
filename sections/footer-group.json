@@ -9,14 +9,15 @@
           "type": "text",
           "settings": {
             "title": "About",
-            "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+            "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+            "enable_follow_on_shop": true
           }
         },
         "links": {
           "type": "links",
           "settings": {
             "title": "Links",
-            "link_list": "footer"
+            "link_list": "new-footer"
           }
         },
         "newsletter": {

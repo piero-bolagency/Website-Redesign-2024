@@ -1,6 +1,10 @@
 <ul class="navigation__submenu fs-body-base" data-submenu data-depth="{{ depth }}">
   {%- assign depth = depth | plus: 1 -%}
 
+  <li class="navigation__submenu-title">
+    {{ title  }}
+  </li>
+
   {%- for link in menu -%}
     {%- if link.links.size > 0 -%}
       {%- assign has_children = true -%}

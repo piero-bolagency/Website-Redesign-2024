@@ -165,13 +165,13 @@
         "type": "color",
         "id": "color_text_drawer",
         "label": "t:settings_schema.colors.settings.color_text_drawer.label",
-        "default": "#ffffff"
+        "default": "#121212"
       },
       {
         "type": "color",
         "id": "color_background_drawer",
         "label": "t:settings_schema.colors.settings.color_background_drawer.label",
-        "default": "#101010"
+        "default": "#ffffff"
       },
       {
         "type": "color",

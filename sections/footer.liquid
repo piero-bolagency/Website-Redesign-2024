@@ -49,6 +49,9 @@
                   {% for link in linklists[block.settings.link_list].links %}
                     <li>
                       <a href="{{ link.url }}">{{ link.title }}</a>
+                      {% for sublink in link.links %}
+                        <li><a href={{ sublink.url  }}>{{ sublink.title  }}</a></li>
+                      {% endfor %}
                     </li>
                   {% endfor %}
                 </ul>
