@@ -2,10 +2,37 @@
   "type": "header",
   "name": "t:groups.header_group.name",
   "sections": {
+    "header_top_bar_KKNP3g": {
+      "type": "header-top-bar",
+      "blocks": {
+        "top_bar_link_Ppnb3y": {
+          "type": "top_bar_link",
+          "settings": {
+            "label": "For Wholesale",
+            "url": "shopify:\/\/pages\/distributors"
+          }
+        },
+        "top_bar_link_eU9dXy": {
+          "type": "top_bar_link",
+          "settings": {
+            "label": "Need Help?",
+            "url": "https:\/\/support.timetimer.com\/hc\/en-us"
+          }
+        }
+      },
+      "block_order": [
+        "top_bar_link_Ppnb3y",
+        "top_bar_link_eU9dXy"
+      ],
+      "settings": {
+        "background_color": "#E4E4E4"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
-        "logo_max_width": 200,
+        "logo": "shopify:\/\/shop_images\/Layer_1.svg",
+        "logo_max_width": 110,
         "menu": "new-main-menu",
         "style": "inline",
         "logo_position": "left",
@@ -39,6 +66,7 @@
     }
   },
   "order": [
+    "header_top_bar_KKNP3g",
     "header",
     "announcement-bar"
   ]

@@ -57,7 +57,7 @@
             render 'mega-nav' with link: link, nav: meganav_block
           endif
         elsif has_children
-          render 'navigation-submenu' with menu: link.links, depth: 1
+          render 'navigation-submenu' with menu: link.links, depth: 1, title: link.title
         endif
       %}
     </li>

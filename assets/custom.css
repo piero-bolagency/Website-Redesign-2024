@@ -1,1 +1,149 @@
-/* Use this file to add custom css to the theme. */
+body {
+  font-family: "Avenir", sans-serif;
+}
+
+/* Navbar styles */
+/* Top Bar Styles */
+.header-top-bar {
+  padding: 0.531rem var(--space-outer);
+}
+
+.header-top-bar__links > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.833rem;
+  list-style: none;
+  margin: 0;
+}
+
+.header-top-bar__link a {
+  font-weight: 500;
+  font-size: 0.688rem;
+}
+
+.header .icon-button__icon::before {
+  content: none;
+}
+
+.header-top-bar__customer .icon-button {
+  display: inline-block;
+}
+
+.header-top-bar__customer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.356rem;
+  font-size: 0.688rem;
+}
+
+.header .icon-button,
+.header .icon-button__icon,
+.header .icon,
+.header__links-list .header__links-icon .icon {
+  height: 13px;
+  width: 13px;
+}
+
+.header__links-list {
+  gap: 1.065rem;
+}
+
+.header__links-list > li {
+  font-size: 0.875rem;
+}
+
+.header__links-list > li:last-of-type {
+  padding-right: 0;
+}
+
+.header__links-list .header__links-icon {
+  height: 8px;
+  width: 4.83px;
+  margin-left: 0.485rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .quick-search__overlay {
+  display: none;
+}
+
+.header .quick-search {
+  position: static;
+  width: fit-content;
+}
+
+.header .quick-search__bar {
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  padding: 0.625rem;
+  min-width: 165px;
+}
+
+.header .quick-search__submit path {
+  stroke: rgba(18, 18, 18, 1);
+}
+
+.header .quick-search__bar .quick-search__input {
+  color: rgba(18, 18, 18, 0.75);
+  font-weight: 500;
+  font-size: 0.625rem;
+}
+
+.header .quick-search__bar .quick-search__input::placeholder {
+  color: rgba(18, 18, 18, 1);
+}
+
+.header .quick-search__actions {
+  margin-left: 0.59rem;
+}
+
+.header .header__icon-touch--search {
+  display: none;
+}
+
+.header .quick-search__clear {
+  display: none;
+}
+
+.header .quick-search__clear svg {
+  stroke: rgba(18, 18, 18, 1);
+}
+
+.quick-search__results:empty {
+  display: none;
+}
+
+.quick-search__results {
+  position: absolute;
+  width: 180%;
+  left: -79%;
+}
+
+.header .quick-search__bar .header__icon-touch {
+  height: auto;
+  width: auto;
+}
+
+html:not(.no-js) .header .header__links-list .navigation__submenu {
+  margin-top: 0;
+  padding: 1.25rem 2.5rem;
+}
+
+.navigation__submenu-title {
+  list-style: none;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+[data-submenu-parent]:hover .navigation__submenu,
+.navigation__submenu:hover {
+  display: block;
+}
+
+.announcement-bar__outer-wrapper {
+  order: 0;
+}
